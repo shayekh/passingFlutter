@@ -22,7 +22,8 @@ import 'package:flutter/material.dart';
 class Stwo extends StatefulWidget {
 
   String value;
-   Stwo({this.value});
+  // Stwo({this.value});
+   Stwo({Key key,@required this.value}) : super(key : key);
   @override
   _StwoState createState() => _StwoState(value);
 }
